@@ -23,7 +23,7 @@ export default function TimelineView() {
   return (
     <div className="h-full bg-white flex flex-col overflow-hidden">
       <div className="flex-1 overflow-auto relative">
-        <div className="min-w-fit flex flex-col relative" style={{ minWidth: `${totalDays * 40 + 200}px` }}> {/* 40px per day + 200px label col */}
+        <div className="min-w-fit flex flex-col relative" style={{ minWidth: `${totalDays * 40 + 200}px` }}> {/* 40px per */}
            
            {/* Header Grid */}
            <div className="sticky top-0 z-20 flex bg-white border-b border-gray-200">
