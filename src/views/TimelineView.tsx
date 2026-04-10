@@ -40,7 +40,7 @@ export default function TimelineView() {
              </div>
            </div>
 
-           {/* Timeline Body Grid  of timeline*/}
+           {/* Timeline Body*/}
            <div className="relative border-b flex-1 border-gray-100" style={{minHeight: filteredTasks.length * 40}}>
              
              {/* Background Grid Lines & Today Line */}
