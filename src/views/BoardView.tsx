@@ -18,7 +18,7 @@ export default function BoardView() {
   const handleDragStart = (e: DragEvent<HTMLDivElement>, task: Task) => {
     setDraggedTaskId(task.id);
     
-    // Fallback for native HTML5 drag image
+    // Fallback for native HTML5 drag image option
     e.dataTransfer.effectAllowed = 'move';
     e.dataTransfer.setData('text/plain', task.id);
     
