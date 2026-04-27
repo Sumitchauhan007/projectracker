@@ -22,7 +22,7 @@ export default function BoardView() {
     e.dataTransfer.effectAllowed = 'move';
     e.dataTransfer.setData('text/plain', task.id);
     
-    // Delay adding visual state to the dragged element itself so the native ghost image looks normal
+    // Delay adding visual state to the dragged element itselfhe native ghost image looks normal
     requestAnimationFrame(() => {
       const el = document.getElementById(`task-${task.id}`);
       if (el) {
