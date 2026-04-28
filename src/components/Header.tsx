@@ -24,7 +24,7 @@ export default function Header() {
       });
       
       state.updateCollabUsers(newCollabUsers);
-    }, 3000); // Check every 3s
+    }, 3000); // Check every 3seconds
     
     return () => clearInterval(interval);
   }, []);
