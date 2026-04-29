@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
 import FilterBar from '../components/FilterBar';
 import Header from '../components/Header';
-
+//for main layout
 export default function MainLayout() {
   return (
     <div className="h-screen flex flex-col bg-white text-gray-900">
