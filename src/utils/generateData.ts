@@ -89,7 +89,7 @@ export function generateMockTasks(count = 500): Task[] {
     };
   });
 }
-
+//active user 
 export function generateInitialCollabUsers(): CollabUser[] {
   const starterTasks = generateMockTasks(10);
   return USERS.map((user, i) => ({
