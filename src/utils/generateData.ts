@@ -59,7 +59,7 @@ export function generateMockTasks(count = 500): Task[] {
     const priority = pickRandom(PRIORITIES);
     const assignee = pickRandom(USERS);
 
-    // Ensure useful edge-case coverage in deterministic proportions.
+    // Ensure useful edge-case coverage in deterministic for proportions.
     const isOverdue = i % 6 === 0;
     const hasMissingStartDate = i % 10 === 0;
 
